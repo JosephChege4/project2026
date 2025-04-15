@@ -1,4 +1,11 @@
+import Layout from "../../components/Layout";
+import Navigation from "../../components/Navigation";
+
+
 export default function PhasePage() {
-    return <div>Phase content coming soon!</div>;
-  }
-  
+  return (
+    <Layout>
+      <h1>Welcome to the Phase</h1>
+    </Layout>
+  );
+}

@@ -1,4 +1,10 @@
+import Layout from "../../components/Layout";
+// import Navigation from "../../components/Navigation";
+
 export default function GamePage() {
-    return <div>Game content coming soon!</div>;
-  }
-  
+  return (
+    <Layout>
+      <h1>Welcome to the Game</h1>
+    </Layout>
+  );
+}
